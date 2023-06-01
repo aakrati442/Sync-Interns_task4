@@ -1,7 +1,7 @@
 :root {
-    --green: #9bded1;
-    --yellow: #ffc145;
-    --grey: #b8b8d1;
+    --green: #a07388;
+    --yellow: #c03ab9;
+    --grey: #eea1d4;
     --gradient: linear-gradient(90deg, var(--green), var(--yellow));
   }
   
@@ -47,7 +47,7 @@
   .container {
     background: #fff;
     border-radius: 0.5rem;
-    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0.5rem 1rem rgba(25, 18, 18, 0.1);
   }
   .btn {
     background-color: rgb(12, 173, 237);
@@ -83,7 +83,7 @@
     justify-content: space-between;
     width: 100%;
     padding: 2rem 10%;
-    border-bottom: 0.5rem solid rgba(0, 0, 0, 0.1);
+    border-bottom: 0.5rem solid rgba(31, 24, 24, 0.1);
     z-index: 1000;
   }
   header .logo {
@@ -101,7 +101,7 @@
   header .navbar a {
     margin-left: 2rem;
     font-size: 2rem;
-    color: #629ca0;
+    color: #228475;
     font-weight: bold;
   }
   
@@ -113,7 +113,7 @@
     font-size: 2.5rem;
     padding: 0.5rem 1rem;
     border-radius: 0.3rem;
-    border: 1rem solid rgba(0, 0, 0, 0.2);
+    border: 1rem solid rgba(23, 10, 10, 0.2);
     cursor: pointer;
     display: none;
   }
@@ -150,7 +150,7 @@
   .home .content p {
     padding: 0.5rem 0;
     font-size: 2rem;
-    color: rgb(211, 71, 94);
+    color: rgb(223, 33, 64);
     font-family: monospace;
   }
   
@@ -180,8 +180,8 @@
       left: 0;
       right: 0;
       background: #fff;
-      border-top: 0.1rem solid rgba(0, 0, 0, 0.2);
-      border-bottom: 0.1rem solid rgba(0, 0, 0, 0.2);
+      border-top: 0.1rem solid rgba(21, 15, 15, 0.2);
+      border-bottom: 0.1rem solid rgba(19, 13, 13, 0.2);
       clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
     }
   
@@ -206,7 +206,7 @@
   .course .box {
     flex: 1 1 30rem;
     border-radius: 0.5rem;
-    border: 0.1rem solid rgba(0, 0, 0, 0.1);
+    border: 0.1rem solid rgba(19, 14, 14, 0.1);
     padding: 1rem;
     position: relative;
   }
@@ -250,7 +250,7 @@
     padding-top: 1rem;
   }
   .course .icons p {
-    color: #666;
+    color: #171313;
     font-size: 1.3rem;
   }
   .course .icons p i {
